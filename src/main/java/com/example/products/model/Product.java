@@ -1,7 +1,9 @@
 package com.example.products.model;
 
+import com.example.products.DTO.ProductDTO;
 import jakarta.persistence.*;
 import lombok.*;
+import org.springframework.beans.BeanUtils;
 
 import java.io.Serializable;
 import java.util.UUID;
@@ -22,4 +24,5 @@ public class Product implements Serializable {
     private UUID id;
     private String name;
     private Integer price_in_cents;
+
 }

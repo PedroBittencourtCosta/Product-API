@@ -1,7 +1,7 @@
 # Product-API
 
-* API de produtos usando:
+* API-REST de produtos usando:
   - Java;
   - Spring 
   - PostgreSQL
- 
+
